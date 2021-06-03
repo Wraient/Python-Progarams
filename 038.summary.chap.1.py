@@ -1,0 +1,20 @@
+name = "rushikesh"
+print(name[-1])
+print(name[0:-1])
+print(name[3:])
+print(name[0:10:2])
+print(name[::-1])
+name, age = input("enter your name and age : ").split(",")
+print(name)
+print(age)
+name = "rushik e sh Gaikwad"
+age = 69
+print(len(name))
+print(name.lower())
+print(name.upper())
+print(name.title())
+print(name.count("h"))
+print(name.find("h", 6))
+print(name.replace(" ", ""))
+print(name.center(len(name)+int(age), "*"))
+print(name.replace("r", "R"))
